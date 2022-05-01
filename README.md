@@ -6,4 +6,10 @@
 
 ## Results
 
-### Summary
+### Analysis
+
+## Summary
+
+### Advantages and Disadvantages of Refactoring Code
+
+### Advantages and Disadvantages of the original and refactored VBA script
