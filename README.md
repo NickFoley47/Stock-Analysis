@@ -2,14 +2,14 @@
 
 ## Overview of Project
 
-### Purpose
+### Purpose:
 
 ## Results
 
-### Analysis
+### Analysis between Performance of the original script and the refactored script:
 
 ## Summary
 
-### Advantages and Disadvantages of Refactoring Code
+### Advantages and Disadvantages of Refactoring Code:
 
-### Advantages and Disadvantages of the original and refactored VBA script
+### Advantages and Disadvantages of the original and refactored VBA script:
