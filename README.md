@@ -7,7 +7,7 @@ I conducted an analysis on stock data for Steve on Green Energy companies to hel
 ## Results
 
 ### Analysis between Performance of the original script and the refactored script:
-The original script code worked to help find the data we needed for our small amount of data we wanted to analyze. When we ran our original script for 2017 the execution time was .5625 seconds while 2018 was .6171 seconds. Our execution times were longer than our refactored code. The main reason for this longer time was due to how our code was executing. In our original code we used a nested for loop which went through 3000 rows of data for each ticker. Since we have 12 indexes, we would have go through our 3000 cells of data 12 times, which is why our execution times were longer in our original code. Our code would also initialize total volume to 0 for each run of an index for that certain ticker. 
+The original script code successfully pulled the necessary data for analysis. The original subroutine ran the data for 2017 in .5625 seconds and for 2018 in .6171 seconds. The refactored code reduced the time for 2017 and 2018 in .4766 seconds (2017) and .5233 seconds (2018) respectively and included additional formatting code. The main reason for this longer time in the original subroutine was due to how our code was executing. In our original code we used a nested for loop, which went through over 3000 rows of data for each ticker. Since we have 12 indexes, we would have go through our 3000 cells of data each time we ran analysis on a ticker. Our code would also initialize total volume to 0 for each run of an index for that certain ticker.
 
 ![Old code snippet]( https://github.com/NickFoley47/Stock-Analysis/blob/main/Resources/Old%20code%20snippet.png)
 
