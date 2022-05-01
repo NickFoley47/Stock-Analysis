@@ -11,6 +11,7 @@ The original script code worked to help find the data we needed for our small am
 
 
 ![Old code snippet]( https://github.com/NickFoley47/Stock-Analysis/blob/main/Resources/Old%20code%20snippet.png)
+
 ![2017 Old Code Time]( https://github.com/NickFoley47/Stock-Analysis/blob/main/Resources/2017%20Old%20Code%20Time.png)
 ![2018 Old Code Time]( https://github.com/NickFoley47/Stock-Analysis/blob/main/Resources/2018%20Old%20Code%20Time.png)
 
