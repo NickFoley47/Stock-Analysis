@@ -15,7 +15,7 @@ The original script code successfully pulled the necessary data for analysis. Th
 ![2017 Old Code Time]( https://github.com/NickFoley47/Stock-Analysis/blob/main/Resources/2017%20Old%20Code%20Time.png)
 ![2018 Old Code Time]( https://github.com/NickFoley47/Stock-Analysis/blob/main/Resources/2018%20Old%20Code%20Time.png)
 
-The refactored script was much more efficient compared to our original script. Compared to our original code, I set tickerVolume(i) in its own for loop which allowed all the tickers volume to be initialized 0 instead of having a nested for loop to initialize tickerVolume to 0 then finding the data for the indexed ticker. We also added a tickerIndex to our if statements to be able to find our data for our tickers more efficiently. Our new execution time for 2017 was .0859 seconds and for 2018 it was .0937 seconds.  This is a great improvement of efficiency between our original script and our refactored script.  
+The refactored script improved efficiency over the original code. In the refactored code, the tickerVolumes array was isolated in its own for loop compared with the original, where it was nested. This initializes all ticker volumes to 0 in one cycle through all the rows, rather than a nested for loop to initialize tickerVolume to 0 then finding the data for the indexed ticker. We also added a tickerIndex to our if statements to be able to find our data for our tickers more efficiently. Our new execution time for 2017 was .0859 seconds and for 2018 it was .0937 seconds. This is a great improvement of efficiency between our original script and our refactored script.
 
 ![Refactored Code snippet]( https://github.com/NickFoley47/Stock-Analysis/blob/main/Resources/Refactored%20Code%20snippet.PNG)
 
