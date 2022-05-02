@@ -3,7 +3,7 @@
 ## Overview of Project
 
 ### Purpose:
-I conducted an analysis on stock data for Steve on Green Energy companies to help diversify his parent’s portfolio. To provide better service for Steve and his parents, I refactored the VBA script that helps analyze the stock data to allow for more efficient execution times. The refactored VBA script will allow for Steve to look at more stocks while being more efficient.
+I conducted an analysis on stock data for Steve on Green Energy companies to help diversify his parent’s portfolio. To provide better service for Steve and his parents, I refactored the VBA script that helps analyze the stock data to allow for more efficient execution times. The refactored VBA script will allow for Steve to look at more stocks in the future while being more efficient.
 ## Results
 
 ### Analysis between Performance of the original script and the refactored script:
